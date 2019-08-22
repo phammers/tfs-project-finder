@@ -1,0 +1,42 @@
+    
+<!doctype html>
+<html>
+  <head>
+    <title>Find a TFS Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 100%;
+        text-align:center;
+      }
+      h1{
+        font-weight: 300;
+      }
+      .inputbox{
+        width:450px;
+      }
+      .inputbox span{
+        display:inline-block;
+        width:100px;
+      }
+      .inputbox input{
+        display:inline-block;
+        width:280px;
+      }
+      .inputbox button{
+        display:inline-block;
+        width:50px;
+      }
+    </style>
+    <script src="jquery-3.4.1.slim.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="inputbox">
+      <span>TFS Project</span>
+      <input type="text" class="tfsProject"></input>
+      <button class="urlbutton">GO!</button>
+    </div>
+  </body>
+</html>
