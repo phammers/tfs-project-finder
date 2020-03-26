@@ -5,4 +5,5 @@ Very basic chrome extension that finds a tfs project given a project name across
 ## Installation
 
 1. Download CRX
-2. Follow instructions for installing https://developer.chrome.com/apps/external_extensions
+1. Make sure developer mode is enabled in chrome.  
+1. Install crx
